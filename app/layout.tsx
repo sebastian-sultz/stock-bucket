@@ -27,7 +27,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://stockbuckets.in"),
+  metadataBase: new URL("https://stockbucketresearchfirm.co"),
   title: {
     default: "Stock Buckets Research Company | Clarity Before Every Call",
     template: "%s | Stock Buckets Research",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://stockbuckets.in",
+    url: "https://stockbucketresearchfirm.co",
     title: "Stock Buckets Research Company | Clarity Before Every Call",
     description:
       "Structured, risk-defined research across equity, futures, options, and commodity markets. Defined entry, target, and stop-loss on every call.",
@@ -69,7 +69,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Stock Buckets Research Company",
-    description: "Clarity Before Every Call — Structured market research across all segments.",
+    description:
+      "Clarity Before Every Call — Structured market research across all segments.",
   },
 };
 
@@ -83,12 +84,12 @@ export default function RootLayout({
     "@type": "FinancialService",
     name: COMPANY.name,
     description: COMPANY.subTagline,
-    url: "https://stockbuckets.in",
+    url: "https://stockbucketresearchfirm.co",
     telephone: COMPANY.phone,
     email: COMPANY.email,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "5 B/1 Colvin Road, Civil Lines",
+      streetAddress: "Lukar Road, Lukarganj, near Madnani Hospital",
       addressLocality: "Prayagraj",
       addressRegion: "Uttar Pradesh",
       postalCode: "211001",

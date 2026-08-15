@@ -11,7 +11,7 @@ import {
   ChevronDown,
   MessageSquare,
 } from "lucide-react";
-import { LogoBucketIcon } from "@/components/svg/BucketIcons";
+import { Logo } from "@/components/shared/Logo";
 import { COMPANY } from "@/lib/constants";
 
 export function Footer() {
@@ -29,19 +29,7 @@ export function Footer() {
       <div className="block md:hidden px-4 py-8 space-y-6">
         {/* Brand Header & Tagline */}
         <div className="space-y-3">
-          <Link href="/" className="flex items-center gap-2.5">
-            <div className="w-9 h-9 rounded-xl bg-white/10 text-sage-green flex items-center justify-center border border-white/10">
-              <LogoBucketIcon className="w-5 h-5 text-sage-green" />
-            </div>
-            <div>
-              <span className="font-bold text-lg font-display tracking-tight text-white block leading-tight">
-                Stock Buckets
-              </span>
-              <span className="text-[9px] font-mono font-semibold tracking-wider text-sage-green uppercase">
-                Research Company
-              </span>
-            </div>
-          </Link>
+          <Logo variant="dark" size="md" />
 
           <p className="text-xs text-steel-light leading-relaxed">
             Structured, risk-defined market research across Indian equity, derivatives & commodities.
@@ -57,7 +45,7 @@ export function Footer() {
               <span>Call Desk</span>
             </a>
             <a
-              href="https://wa.me/915326914710"
+              href="https://wa.me/919793444881"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-white/5 border border-white/10 rounded-lg flex items-center justify-center gap-1.5 text-xs text-white hover:bg-white/10 transition-colors"
@@ -208,19 +196,7 @@ export function Footer() {
         <div className="grid grid-cols-2 lg:grid-cols-12 gap-8 pb-14 border-b border-white/10">
           {/* Column 1: Brand & Contact (4 cols) */}
           <div className="lg:col-span-4 space-y-4">
-            <Link href="/" className="flex items-center gap-2.5 group">
-              <div className="w-10 h-10 rounded-xl bg-white/10 text-sage-green flex items-center justify-center border border-white/10 group-hover:scale-105 transition-transform">
-                <LogoBucketIcon className="w-6 h-6 text-sage-green" />
-              </div>
-              <div className="flex flex-col">
-                <span className="font-bold text-xl font-display tracking-tight text-white">
-                  Stock Buckets
-                </span>
-                <span className="text-[10px] font-mono font-semibold tracking-wider text-sage-green uppercase">
-                  Research Company
-                </span>
-              </div>
-            </Link>
+            <Logo variant="dark" size="lg" />
 
             <p className="text-sm text-steel-light leading-relaxed max-w-sm">
               Delivering structured, risk-defined market research across India&apos;s equity, derivatives, and commodity segments. Clarity before every call.

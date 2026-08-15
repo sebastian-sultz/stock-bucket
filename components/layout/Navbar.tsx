@@ -14,7 +14,7 @@ import {
   Flame,
   ArrowRight,
 } from "lucide-react";
-import { LogoBucketIcon } from "@/components/svg/BucketIcons";
+import { Logo } from "@/components/shared/Logo";
 import { COMPANY } from "@/lib/constants";
 
 export function Navbar() {
@@ -81,23 +81,7 @@ export function Navbar() {
     >
       <div className="container-custom flex items-center justify-between">
         {/* Brand Logo */}
-        <Link
-          href="/"
-          className="flex items-center gap-2 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sage-green rounded-lg"
-          aria-label="Stock Buckets Research Company Home"
-        >
-          <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-ink-navy text-sage-green flex items-center justify-center shadow-subtle group-hover:scale-105 transition-transform">
-            <LogoBucketIcon className="w-5 h-5 sm:w-5.5 sm:h-5.5 text-sage-green" />
-          </div>
-          <div className="flex flex-col">
-            <span className="font-bold text-base sm:text-lg font-display tracking-tight text-ink-navy leading-none">
-              Stock Buckets
-            </span>
-            <span className="text-[9px] sm:text-[10px] font-mono font-semibold tracking-wider text-sage-green uppercase mt-0.5">
-              Research Co.
-            </span>
-          </div>
-        </Link>
+        <Logo size="md" />
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-7" aria-label="Main Navigation">

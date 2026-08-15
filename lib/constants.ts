@@ -1,10 +1,13 @@
 export const COMPANY = {
   name: "Stock Buckets Research Company",
   tagline: "Clarity Before Every Call.",
-  subTagline: "Structured, risk-defined research across equity, derivatives, and commodities.",
-  email: "service@stockbuckets.in",
-  phone: "+91-532-6914710",
-  address: "5 B/1 Colvin Road, Civil Lines, Prayagraj (Allahabad), U.P. - 211001",
+  subTagline:
+    "Structured, risk-defined research across equity, derivatives, and commodities.",
+  email: "stockbucketresearchfirm@gmail.com",
+  phone: "+91-9793444881",
+  whatsapp: "919793444881",
+  address:
+    "Lukar Road, Lukarganj, near Madnani Hospital, Prayagraj, Uttar Pradesh - 211001",
   workingHours: "Monday – Saturday, 9:00 AM – 6:00 PM IST",
   socials: {
     linkedin: "https://linkedin.com",
@@ -12,6 +15,16 @@ export const COMPANY = {
     facebook: "https://facebook.com",
     instagram: "https://instagram.com",
   },
+} as const;
+
+export const BANK_DETAILS = {
+  accountName: "Jitesh Kumar Prajapati",
+  accountNumber: "5849881148",
+  ifscCode: "KKBK0000145",
+  bankName: "Kotak Mahindra Bank",
+  branch: "Rudrapur Branch",
+  accountType: "Bank Account",
+  qrImage: "/qr.jpeg",
 } as const;
 
 export const CONTENT_RULES = {
@@ -125,7 +138,8 @@ export const PACKAGES = {
         "Dedicated analyst support during market hours",
         "Economic calendar & macro data updates",
       ],
-      sampleCall: "BUY PRISM CEMENT BELOW ₹111.5 | T1: ₹110.5 | T2: ₹109.5 | T3: ₹108.5 | SL: ₹113.5",
+      sampleCall:
+        "BUY PRISM CEMENT BELOW ₹111.5 | T1: ₹110.5 | T2: ₹109.5 | T3: ₹108.5 | SL: ₹113.5",
     },
     {
       id: "blue-chip",
@@ -149,7 +163,8 @@ export const PACKAGES = {
         "Real-time market hours query resolution",
         "Weekly performance summary report",
       ],
-      sampleCall: "BUY TVSMOTOR ABOVE ₹2525 | T1: ₹2550 | T2: ₹2580 | T3: ₹2610 | SL: ₹2499.8",
+      sampleCall:
+        "BUY TVSMOTOR ABOVE ₹2525 | T1: ₹2550 | T2: ₹2580 | T3: ₹2610 | SL: ₹2499.8",
     },
     {
       id: "midcap-delivery",
@@ -173,7 +188,8 @@ export const PACKAGES = {
         "In-depth company sector overview",
         "Direct analyst hotline support",
       ],
-      sampleCall: "BUY TATASTEEL ABOVE ₹154 | T1: ₹158 | T2: ₹162 | T3: ₹168 | SL: ₹149.5",
+      sampleCall:
+        "BUY TATASTEEL ABOVE ₹154 | T1: ₹158 | T2: ₹162 | T3: ₹168 | SL: ₹149.5",
     },
   ],
   futures: [
@@ -198,7 +214,8 @@ export const PACKAGES = {
         "Real-time rollover data & open interest interpretation",
         "Support during all active trading hours",
       ],
-      sampleCall: "BUY RELIANCE FUT ABOVE ₹2940 | T1: ₹2965 | T2: ₹2990 | T3: ₹3020 | SL: ₹2910",
+      sampleCall:
+        "BUY RELIANCE FUT ABOVE ₹2940 | T1: ₹2965 | T2: ₹2990 | T3: ₹3020 | SL: ₹2910",
     },
     {
       id: "index-futures",
@@ -221,12 +238,14 @@ export const PACKAGES = {
         "Disciplined risk-reward ratio minimum 1:2",
         "Instant delivery via Telephonic & WhatsApp channels",
       ],
-      sampleCall: "BUY NIFTY FUT ABOVE ₹24600 | T1: ₹24680 | T2: ₹24750 | T3: ₹24840 | SL: ₹24520",
+      sampleCall:
+        "BUY NIFTY FUT ABOVE ₹24600 | T1: ₹24680 | T2: ₹24750 | T3: ₹24840 | SL: ₹24520",
     },
     {
       id: "hni-futures",
       name: "HNI Futures",
-      tagline: "Bespoke high-conviction futures research for capital allocators",
+      tagline:
+        "Bespoke high-conviction futures research for capital allocators",
       segment: "Futures — HNI Desk",
       riskLevel: "High Return Focus",
       price: 100000,
@@ -245,14 +264,16 @@ export const PACKAGES = {
         "Comprehensive domestic & global risk overview",
         "Real-time trailing stop adjustments",
       ],
-      sampleCall: "BUY BANKNIFTY FUT ABOVE ₹51200 | T1: ₹51450 | T2: ₹51700 | T3: ₹52000 | SL: ₹50950",
+      sampleCall:
+        "BUY BANKNIFTY FUT ABOVE ₹51200 | T1: ₹51450 | T2: ₹51700 | T3: ₹52000 | SL: ₹50950",
     },
   ],
   options: [
     {
       id: "option-mantra",
       name: "Stock Option Mantra",
-      tagline: "Low-risk structured options strategies for steady capital growth",
+      tagline:
+        "Low-risk structured options strategies for steady capital growth",
       segment: "Options — Stock Strikes",
       riskLevel: "Low – Moderate",
       price: 18000,
@@ -270,7 +291,8 @@ export const PACKAGES = {
         "Daily updated track sheet",
         "Live market hour updates and exit alerts",
       ],
-      sampleCall: "BUY NIFTY 24500 CE ABOVE ₹135 | T1: ₹155 | T2: ₹175 | T3: ₹205 | SL: ₹110",
+      sampleCall:
+        "BUY NIFTY 24500 CE ABOVE ₹135 | T1: ₹155 | T2: ₹175 | T3: ₹205 | SL: ₹110",
     },
     {
       id: "index-options",
@@ -293,7 +315,8 @@ export const PACKAGES = {
         "Clear stop-loss to prevent premium decay erosion",
         "Instant execution alerts via Telephonic & WhatsApp",
       ],
-      sampleCall: "BUY BANKNIFTY 51000 PE ABOVE ₹240 | T1: ₹275 | T2: ₹315 | T3: ₹360 | SL: ₹195",
+      sampleCall:
+        "BUY BANKNIFTY 51000 PE ABOVE ₹240 | T1: ₹275 | T2: ₹315 | T3: ₹360 | SL: ₹195",
     },
     {
       id: "hni-options",
@@ -317,7 +340,8 @@ export const PACKAGES = {
         "Direct analyst hotline access during market hours",
         "Complete global market overview & exit management",
       ],
-      sampleCall: "BUY POWERGRID 310 CE ABOVE ₹8.5 | T1: ₹11.0 | T2: ₹13.5 | T3: ₹16.0 | SL: ₹6.0",
+      sampleCall:
+        "BUY POWERGRID 310 CE ABOVE ₹8.5 | T1: ₹11.0 | T2: ₹13.5 | T3: ₹16.0 | SL: ₹6.0",
     },
   ],
   commodity: [
@@ -342,12 +366,14 @@ export const PACKAGES = {
         "Evening market session support till 11:30 PM",
         "US macroeconomic data & EIA inventory report context",
       ],
-      sampleCall: "BUY MCX CRUDE OIL ABOVE ₹6250 | T1: ₹6310 | T2: ₹6380 | T3: ₹6460 | SL: ₹6170",
+      sampleCall:
+        "BUY MCX CRUDE OIL ABOVE ₹6250 | T1: ₹6310 | T2: ₹6380 | T3: ₹6460 | SL: ₹6170",
     },
     {
       id: "mcx-hni",
       name: "MCX HNI",
-      tagline: "High-value commodity contracts with international macro alignment",
+      tagline:
+        "High-value commodity contracts with international macro alignment",
       segment: "Commodity — HNI Desk",
       riskLevel: "High Conviction",
       price: 25000,
@@ -365,7 +391,8 @@ export const PACKAGES = {
         "Dedicated relationship manager during extended market hours",
         "Real-time trailing profit protection",
       ],
-      sampleCall: "BUY MCX GOLD (1KG) ABOVE ₹72400 | T1: ₹72850 | T2: ₹73300 | T3: ₹73900 | SL: ₹71950",
+      sampleCall:
+        "BUY MCX GOLD (1KG) ABOVE ₹72400 | T1: ₹72850 | T2: ₹73300 | T3: ₹73900 | SL: ₹71950",
     },
     {
       id: "wealth-creation",
@@ -427,7 +454,8 @@ export const FAQ_ITEMS = [
 export const ARTICLES = [
   {
     slug: "understanding-intraday-volatility",
-    title: "Understanding Intraday Volatility: Why Stop-Loss Discipline Defines Long-Term P&L",
+    title:
+      "Understanding Intraday Volatility: Why Stop-Loss Discipline Defines Long-Term P&L",
     category: "Equity",
     categoryColor: "green",
     date: "August 12, 2026",
@@ -453,7 +481,8 @@ Every stop-loss level provided in our Quantum Cash and Blue Chip buckets is deri
   },
   {
     slug: "option-mantra-range-bound-markets",
-    title: "Option Mantra: How Structured Strategies Protect Capital in Range-Bound Markets",
+    title:
+      "Option Mantra: How Structured Strategies Protect Capital in Range-Bound Markets",
     category: "Options",
     categoryColor: "navy",
     date: "August 08, 2026",

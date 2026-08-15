@@ -17,6 +17,7 @@ import {
   Calendar,
   MapPin,
 } from "lucide-react";
+import { Logo } from "@/components/shared/Logo";
 import { RiskDisclaimer } from "@/components/shared/RiskDisclaimer";
 
 interface FormData {
@@ -859,6 +860,10 @@ export default function RPMPage() {
           ) : (
             /* Submission Success Screen */
             <div className="bg-white border border-border-gray rounded-2xl p-5 sm:p-8 shadow-card text-center space-y-4">
+              <div className="flex justify-center pb-1">
+                <Logo size="sm" />
+              </div>
+
               <div className="w-12 h-12 rounded-full bg-emerald-100 text-sage-green flex items-center justify-center mx-auto">
                 <CheckCircle2 className="w-7 h-7" />
               </div>
@@ -896,7 +901,7 @@ export default function RPMPage() {
               {/* Action Buttons: WhatsApp Dispatch & Copy Receipt */}
               <div className="flex flex-col sm:flex-row items-center justify-center gap-2.5 pt-2 max-w-md mx-auto">
                 <a
-                  href={`https://wa.me/915326914710?text=${getWhatsAppMessage()}`}
+                  href={`https://wa.me/919793444881?text=${getWhatsAppMessage()}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full py-2.5 rounded-xl text-xs font-bold justify-center"
