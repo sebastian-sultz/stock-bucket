@@ -41,7 +41,7 @@ export function WhyChooseUs() {
     },
     {
       title: "No Telegram, No Ambiguity",
-      desc: "We do not operate any Telegram channels or unofficial tip groups. All verified calls are dispatched via SMS and registered instant messaging.",
+      desc: "We do not operate any Telegram channels or unofficial tip groups. All verified calls are dispatched via direct Telephonic and official WhatsApp channels.",
       icon: MessageSquareOff,
       color: "text-soft-amber",
       bg: "bg-amber-50",

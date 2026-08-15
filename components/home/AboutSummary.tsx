@@ -77,7 +77,7 @@ export function AboutSummary() {
     {
       step: "04",
       title: "Risk Calibration & Call Delivery",
-      desc: "Defining entry zone, 3 risk-adjusted targets, and mandatory stop-loss. Dispatched instantly via SMS & messaging.",
+      desc: "Defining entry zone, 3 risk-adjusted targets, and mandatory stop-loss. Dispatched instantly via Telephonic & WhatsApp.",
       icon: ShieldCheck,
     },
   ];

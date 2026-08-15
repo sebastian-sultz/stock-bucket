@@ -13,7 +13,7 @@ export function HowItWorks() {
     {
       num: "02",
       title: "Receive Structured Calls",
-      desc: "Instant delivery via official SMS and registered messengers with clear entry zone, 3 targets, and a mandatory stop-loss.",
+      desc: "Instant delivery via direct Telephonic and official WhatsApp channels with clear entry zone, 3 targets, and a mandatory stop-loss.",
       icon: Smartphone,
     },
     {

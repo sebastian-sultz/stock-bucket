@@ -13,7 +13,7 @@ export function SampleCallCard() {
           subtitle="Every recommendation is delivered in a standardized, unambiguous format with defined entry zones, 3 profit targets, and a mandatory system stop-loss."
         />
 
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-2xl mx-auto select-none">
           <ScrollReveal>
             <div className="rounded-xl p-4 sm:p-6 bg-white text-steel-dark shadow-card border border-border-gray relative overflow-hidden">
               {/* Terminal header */}
@@ -104,7 +104,7 @@ export function SampleCallCard() {
                 <div className="pt-2.5 border-t border-border-gray/80 flex flex-wrap items-center justify-between gap-2 text-xs text-steel font-medium">
                   <div className="flex items-center gap-1.5 text-[11px]">
                     <MessageSquare className="w-3 h-3 text-sage-green" />
-                    <span>Dispatched: SMS & Messaging</span>
+                    <span>Dispatched: Telephonic & WhatsApp</span>
                   </div>
                   <div className="text-[11px]">
                     Risk: <strong className="text-ink-navy">Moderate</strong>

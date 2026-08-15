@@ -1,6 +1,6 @@
 export function HeroChartSVG() {
   return (
-    <div className="relative w-full max-w-[520px] mx-auto group">
+    <div className="relative w-full max-w-[520px] mx-auto group select-none">
       {/* Floating Micro Badge 1 (Top Left) */}
       <div className="hidden sm:flex absolute -top-3.5 -left-3 z-20 items-center gap-1.5 px-2.5 py-1 rounded-md bg-white/95 backdrop-blur-md border border-emerald-200 shadow-md animate-float-slow">
         <span className="w-2 h-2 rounded-full bg-emerald-500 animate-beacon" />
@@ -281,7 +281,7 @@ export function HeroChartSVG() {
           </div>
           <div>
             <div className="text-steel-light text-[10px] uppercase tracking-wider font-semibold">Delivery Mode</div>
-            <div className="font-bold text-sage-green mt-0.5">SMS + Alert</div>
+            <div className="font-bold text-sage-green mt-0.5">Telephonic & WA</div>
           </div>
         </div>
       </div>

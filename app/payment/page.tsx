@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { ShieldAlert, Building2, QrCode, PhoneCall, Mail } from "lucide-react";
+import Link from "next/link";
+import { ShieldAlert, Building2, QrCode, PhoneCall, Mail, ArrowRight } from "lucide-react";
 import { COMPANY } from "@/lib/constants";
 import { RiskDisclaimer } from "@/components/shared/RiskDisclaimer";
 
@@ -122,6 +123,34 @@ export default function PaymentPage() {
                 </a>
               </div>
             </div>
+          </div>
+
+          {/* Next Step Banner: Mandatory RPM Risk Profile Onboarding */}
+          <div className="bg-emerald-50/80 border border-emerald-200 p-5 sm:p-6 rounded-2xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-subtle">
+            <div className="space-y-1">
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-emerald-800 bg-emerald-100/90 px-2 py-0.5 rounded border border-emerald-300">
+                  Next Step After Payment
+                </span>
+                <span className="text-[11px] font-mono text-steel">
+                  Registration Fee: <strong>₹2,500</strong>
+                </span>
+              </div>
+              <h3 className="text-base sm:text-lg font-bold text-ink-navy">
+                Complete Risk Profile Management (RPM) Onboarding
+              </h3>
+              <p className="text-xs text-steel max-w-xl">
+                All subscribers must complete our 16-point financial suitability and risk calibration assessment before the research desk can activate telephonic & WhatsApp dispatch.
+              </p>
+            </div>
+
+            <Link
+              href="/rpm"
+              className="btn-primary text-xs py-3 px-5 rounded-xl flex items-center gap-2 whitespace-nowrap shadow-sm"
+            >
+              <span>Complete RPM Form</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
           </div>
 
           {/* Payment Query Help Section */}

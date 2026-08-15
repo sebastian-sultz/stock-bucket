@@ -61,7 +61,7 @@ export default function TermsPage() {
           <div className="space-y-3">
             <h2 className="text-xl font-bold text-ink-navy">5. Authorized Delivery & Communication Channels</h2>
             <p>
-              All official research calls and customer support are dispatched strictly via official SMS routes and registered Instant Messaging channels directly to the client&apos;s verified mobile number. The Company <strong>does NOT operate, manage, or endorse any public or private Telegram channels or WhatsApp tip groups</strong>. We are not liable for any losses arising from interactions with unauthorized third-party channels impersonating our brand.
+              All official research calls and customer support are dispatched strictly via verified Telephonic and official WhatsApp communication channels directly to the client&apos;s verified registered mobile number. The Company <strong>does NOT operate, manage, or endorse any public or private Telegram channels or unofficial tip groups</strong>. We are not liable for any losses arising from interactions with unauthorized third-party channels impersonating our brand.
             </p>
           </div>
 

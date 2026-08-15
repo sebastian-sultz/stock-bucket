@@ -95,7 +95,7 @@ export default function AboutPage() {
             />
             <div className="prose text-steel text-xs sm:text-sm leading-relaxed space-y-3 font-normal">
               <p>
-                The Indian retail advisory space has historically been dominated by high-pressure SMS tips, exaggerated accuracy claims, and unhedged speculative calls distributed across unverified messaging channels. Traders and investors were frequently left without context, without position sizing guidance, and without realistic exit plans when markets turned volatile.
+                The Indian retail advisory space has historically been dominated by high-pressure tips, exaggerated accuracy claims, and unhedged speculative calls distributed across unverified social channels. Traders and investors were frequently left without context, without position sizing guidance, and without realistic exit plans when markets turned volatile.
               </p>
               <p>
                 Stock Buckets was established to pioneer an entirely different standard — treating market research as an editorial and analytical craft. We organized our research services into clear, modular <strong>&ldquo;Buckets&rdquo;</strong> (Equity, Futures, Options, Commodity) allowing subscribers to choose specific frameworks matching their exact capital capabilities and risk appetite.

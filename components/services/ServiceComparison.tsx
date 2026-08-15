@@ -29,7 +29,14 @@ export function ServiceComparison() {
       commodity: "Moderate – High",
     },
     {
-      feature: "SMS & Instant Messenger Delivery",
+      feature: "Subscription Plans / Pricing",
+      equity: "From ₹8,999 / mo",
+      futures: "From ₹15,000 / mo",
+      options: "From ₹18,000 / mo",
+      commodity: "From ₹18,000 / mo",
+    },
+    {
+      feature: "Telephonic & WhatsApp Delivery",
       equity: "Instant Alert",
       futures: "Instant Alert",
       options: "Instant Alert",
@@ -41,13 +48,6 @@ export function ServiceComparison() {
       futures: "Mon–Fri, 9:00 AM – 3:30 PM",
       options: "Mon–Fri, 9:00 AM – 3:30 PM",
       commodity: "Mon–Fri, 9:00 AM – 11:30 PM",
-    },
-    {
-      feature: "Daily Track Sheet Tracking",
-      equity: "Published Daily",
-      futures: "Published Daily",
-      options: "Published Daily",
-      commodity: "Published Daily",
     },
     {
       feature: "Guaranteed Return Claims",

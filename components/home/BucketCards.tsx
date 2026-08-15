@@ -56,14 +56,23 @@ export function BucketCards() {
                 )} p-4 sm:p-6 shadow-card hover:shadow-card-hover transition-all duration-300 flex flex-col justify-between h-full group hover:-translate-y-1`}
               >
                 <div>
-                  {/* Card Header: Icon + Badge */}
+                  {/* Card Header: Icon + Badge + Price Starting */}
                   <div className="flex items-center justify-between gap-3 mb-3">
                     <div className="w-10 h-10 rounded-lg bg-cloud-white flex items-center justify-center border border-border-gray group-hover:scale-105 transition-transform shadow-subtle">
                       {getIcon(bucket.id)}
                     </div>
-                    <span className="badge-pill badge-pill-navy text-[10px] font-mono">
-                      {bucket.badge}
-                    </span>
+                    <div className="flex items-center gap-2">
+                      <span className="text-[11px] font-mono font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded">
+                        {bucket.id === "equity"
+                          ? "From ₹8,999/mo"
+                          : bucket.id === "futures"
+                          ? "From ₹15,000/mo"
+                          : "From ₹18,000/mo"}
+                      </span>
+                      <span className="badge-pill badge-pill-navy text-[10px] font-mono">
+                        {bucket.badge}
+                      </span>
+                    </div>
                   </div>
 
                   {/* Title & Tagline */}

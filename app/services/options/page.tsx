@@ -46,7 +46,7 @@ export default function OptionsServicePage() {
       </section>
 
       {/* Packages Grid */}
-      <section className="py-16 sm:py-24 bg-mist-gray/40">
+      <section className="py-10 sm:py-16 bg-mist-gray/40">
         <div className="container-custom">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="badge-pill badge-pill-navy mb-2">Available Packages</span>
@@ -72,6 +72,11 @@ export default function OptionsServicePage() {
                 delivery={pkg.delivery}
                 features={pkg.features}
                 sampleCall={pkg.sampleCall}
+                formattedPrice={pkg.formattedPrice}
+                tenure={pkg.tenure}
+                tenureShort={pkg.tenureShort}
+                tier={pkg.tier}
+                monthlyEquivalent={"monthlyEquivalent" in pkg ? pkg.monthlyEquivalent : undefined}
                 accentColor="navy"
               />
             ))}

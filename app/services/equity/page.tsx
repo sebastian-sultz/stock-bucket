@@ -28,33 +28,19 @@ export default function EquityServicePage() {
         ]}
       />
 
-      {/* What is Equity Research Section */}
-      <section className="py-12 bg-white border-b border-border-gray">
-        <div className="container-custom max-w-4xl">
-          <h2 className="text-2xl font-bold text-ink-navy mb-4">
-            Understanding Our Equity Advisory Framework
-          </h2>
-          <div className="prose text-steel text-sm sm:text-base leading-relaxed space-y-3">
-            <p>
-              In cash equity trading, capital preservation is achieved by avoiding illiquid penny stocks and focusing purely on institutional accumulation patterns. Our Equity Bucket is structured into three specialized tiers, matching active intraday scalpers as well as multi-day positional swing traders.
-            </p>
-            <p>
-              Calls are dispatched strictly during active trading hours (09:15 AM to 03:30 PM) directly via SMS and Instant Messengers, complete with entry thresholds, three distinct profit realization targets, and an uncompromised system stop-loss.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Packages Grid */}
-      <section className="py-16 sm:py-24 bg-mist-gray/40">
+      <section className="py-10 sm:py-16 bg-mist-gray/40">
         <div className="container-custom">
           <div className="text-center max-w-2xl mx-auto mb-12">
-            <span className="badge-pill badge-pill-green mb-2">Available Packages</span>
+            <span className="badge-pill badge-pill-green mb-2">
+              Available Packages
+            </span>
             <h2 className="text-3xl font-bold text-ink-navy">
               Choose Your Equity Package
             </h2>
             <p className="text-sm text-steel mt-2">
-              Select the package aligned with your trading capital, holding preference, and daily market availability.
+              Select the package aligned with your trading capital, holding
+              preference, and daily market availability.
             </p>
           </div>
 
@@ -72,6 +58,10 @@ export default function EquityServicePage() {
                 delivery={pkg.delivery}
                 features={pkg.features}
                 sampleCall={pkg.sampleCall}
+                formattedPrice={pkg.formattedPrice}
+                tenure={pkg.tenure}
+                tenureShort={pkg.tenureShort}
+                tier={pkg.tier}
                 accentColor="green"
               />
             ))}
@@ -79,6 +69,30 @@ export default function EquityServicePage() {
 
           <div className="mt-14 max-w-4xl mx-auto">
             <RiskDisclaimer />
+          </div>
+        </div>
+      </section>
+
+      {/* What is Equity Research Section */}
+      <section className="py-10 bg-white border-b border-border-gray">
+        <div className="container-custom max-w-4xl">
+          <h2 className="text-2xl font-bold text-ink-navy mb-4">
+            Understanding Our Equity Advisory Framework
+          </h2>
+          <div className="prose text-steel text-sm sm:text-base leading-relaxed space-y-3">
+            <p>
+              In cash equity trading, capital preservation is achieved by
+              avoiding illiquid penny stocks and focusing purely on
+              institutional accumulation patterns. Our Equity Bucket is
+              structured into three specialized tiers, matching active intraday
+              scalpers as well as multi-day positional swing traders.
+            </p>
+            <p>
+              Calls are dispatched strictly during active trading hours (09:15
+              AM to 03:30 PM) directly via verified Telephonic and WhatsApp
+              channels, complete with entry thresholds, three distinct profit
+              realization targets, and an uncompromised system stop-loss.
+            </p>
           </div>
         </div>
       </section>
