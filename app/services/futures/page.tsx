@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Futures Research Bucket | Stock & Index F&O",
   description:
     "High-accuracy stock futures and index futures research calls across NSE and BSE derivatives segments. Multi-target setups with disciplined risk management.",
+  alternates: {
+    canonical: "https://stockbucketresearchfirm.co/services/futures",
+  },
 };
 
 export default function FuturesServicePage() {

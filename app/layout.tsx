@@ -65,12 +65,21 @@ export const metadata: Metadata = {
     description:
       "Structured, risk-defined research across equity, futures, options, and commodity markets. Defined entry, target, and stop-loss on every call.",
     siteName: "Stock Buckets Research Company",
+    images: [
+      {
+        url: "https://stockbucketresearchfirm.co/logo.jpg",
+        width: 1200,
+        height: 1200,
+        alt: "Stock Buckets Research Company Logo",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Stock Buckets Research Company",
     description:
       "Clarity Before Every Call — Structured market research across all segments.",
+    images: ["https://stockbucketresearchfirm.co/logo.jpg"],
   },
 };
 
@@ -85,6 +94,8 @@ export default function RootLayout({
     name: COMPANY.name,
     description: COMPANY.subTagline,
     url: "https://stockbucketresearchfirm.co",
+    logo: "https://stockbucketresearchfirm.co/logo.jpg",
+    image: "https://stockbucketresearchfirm.co/logo.jpg",
     telephone: COMPANY.phone,
     email: COMPANY.email,
     address: {
@@ -95,7 +106,15 @@ export default function RootLayout({
       postalCode: "211001",
       addressCountry: "IN",
     },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "25.4484",
+      longitude: "81.8250",
+    },
     openingHours: "Mo-Sa 09:00-18:00",
+    sameAs: [
+      "https://wa.me/919793444881",
+    ],
   };
 
   return (

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Options Research Bucket | Option Mantra & Index Calls",
   description:
     "Structured options advisory from low-risk Option Mantra strategies to high-conviction index strike calls. Greeks management and predefined risk on every trade.",
+  alternates: {
+    canonical: "https://stockbucketresearchfirm.co/services/options",
+  },
 };
 
 export default function OptionsServicePage() {

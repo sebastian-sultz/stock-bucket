@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Equity Research Bucket | Quantum Cash & Blue Chip",
   description:
     "Structured intraday and short-term delivery research calls on NSE & BSE cash segment stocks. Defined targets, strict stop-loss, and daily track sheets.",
+  alternates: {
+    canonical: "https://stockbucketresearchfirm.co/services/equity",
+  },
 };
 
 export default function EquityServicePage() {

@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Commodity Research Bucket | MCX Bullion, Energy & Base Metals",
   description:
     "Specialized MCX commodity research across Gold, Silver, Crude Oil, and Natural Gas. International macro correlation with extended evening market session coverage.",
+  alternates: {
+    canonical: "https://stockbucketresearchfirm.co/services/commodity",
+  },
 };
 
 export default function CommodityServicePage() {
